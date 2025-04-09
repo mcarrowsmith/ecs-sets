@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+
+    reportUnmatchedIgnoredErrors: false
+
+    # requires exact closure types
+    checkMissingCallableSignature: true
+
+    paths:
+        - config
+        - rector.php
